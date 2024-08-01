@@ -21,7 +21,7 @@ This project is a React application built using Vite as the build tool. It showc
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/naksh1414/CosmoCloud-task.git
     cd your-repo-name
     ```
 
