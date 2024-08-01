@@ -1,4 +1,4 @@
-# React + Vite Employee Management Project
+# React Based Employee Management Project
 
 This project is a React application built using Vite as the build tool. It showcases the use of various React hooks, Tailwind CSS for styling, and lazy loading for performance optimization. The application interacts with the Cosmocloud API to fetch and add data to a MongoDB database.
 
