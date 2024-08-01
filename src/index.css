@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-secondary text-secondary-foreground;
+}
+:root {
+  --gradient: linear-gradient(to top left, #5433ff, #20bdff, #a5fecb);
+
+  --background: 265 65% 4.8%;
+  --foreground: 265 10% 98%;
+
+  --muted: 265 50% 18%;
+  --muted-foreground: 265 10% 56%;
+
+  --popover: 265 45% 7.8%;
+  --popover-foreground: 265 10% 98%;
+
+  --card: 265 45% 7.8%;
+  --card-foreground: 265 10% 98%;
+
+  --border: 265 50% 18%;
+  --input: 265 50% 18%;
+
+  --primary: 265 100% 60%;
+  --primary-foreground: 265 10% 6%;
+
+  --secondary: 265 50% 18%;
+  --secondary-foreground: 265 10% 98%;
+
+  --accent: 265 50% 18%;
+  --accent-foreground: 265 10% 98%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 265 10% 98%;
+
+  --ring: 265 100% 60%;
+}
+
+.card {
+  backdrop-filter: blur(8px) saturate(167%);
+  -webkit-backdrop-filter: blur(8px) saturate(167%);
+  background-color: rgba(17, 25, 40, 0.32);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 3px 6px -1px rgba(17, 25, 40, 0.32), 0 1px 3px -1px rgba(17, 25, 40, 0.5);
+}
